@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-slate-900/95 backdrop-blur-sm py-4 shadow-lg' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link href="/" className="text-2xl font-serif font-bold text-white tracking-widest">
-          VANGUARD<span className="text-amber-500">.</span>
+          COMPANYNAME<span className="text-amber-500">.</span>
         </Link>
 
         {/* Desktop Nav */}

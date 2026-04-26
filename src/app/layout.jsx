@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata = {
-  title: 'Vanguard Development | Premium Real Estate',
+  title: 'Estate Development | Premium Real Estate',
   description: 'Building the future of luxury living.',
 }
 

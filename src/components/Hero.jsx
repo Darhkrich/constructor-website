@@ -1,8 +1,17 @@
 'use client'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
-
+import Link from 'next/link'
 export default function Hero() {
+
+ const navLinks = [
+    { name: 'Portfolio', href: '#projects' },
+    { name: 'Expertise', href: '#expertise' },
+    { name: 'About', href: '#about' },
+    { name: 'Contact', href: '#contact' },
+  ]
+
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image - Replace URL with your actual asset */}
@@ -28,10 +37,15 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 font-light">
             We craft architectural masterpieces that blend sustainable innovation with timeless luxury.
           </p>
+
+          
+     
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          
             <button className="px-8 py-4 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold text-sm uppercase tracking-wider transition-colors">
               View Projects
             </button>
+           
             <button className="px-8 py-4 border border-white text-white hover:bg-white hover:text-slate-900 font-bold text-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
               Contact Us <ArrowRight size={16} />
             </button>
